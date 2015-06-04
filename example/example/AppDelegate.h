@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <AdjustFramework/AdjustFramework.h>
+#import <AdjustDynamic/AdjustDynamic.h>
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate, AdjustDelegate>
 

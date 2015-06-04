@@ -87,50 +87,50 @@
 		96E5E3B818BBB49E008E7B30 /* NSURLConnection+NSURLConnectionSynchronousLoadingMocking.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E5E3AD18BBB49E008E7B30 /* NSURLConnection+NSURLConnectionSynchronousLoadingMocking.m */; };
 		96ED00391A38A4CD00209110 /* ADJAttributionHandlerMock.m in Sources */ = {isa = PBXBuildFile; fileRef = 96ED00381A38A4CD00209110 /* ADJAttributionHandlerMock.m */; };
 		96ED003E1A38A98C00209110 /* ADJDelegateTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 96ED003D1A38A98C00209110 /* ADJDelegateTest.m */; };
-		9DD8859E1B205C700073D9AC /* AdjustFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DD8859D1B205C700073D9AC /* AdjustFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9DD885A41B205C700073D9AC /* AdjustFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DD885991B205C700073D9AC /* AdjustFramework.framework */; };
-		9DD885AB1B205C700073D9AC /* AdjustFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DD885AA1B205C700073D9AC /* AdjustFrameworkTests.m */; };
-		9DD885B21B205CC40073D9AC /* NSString+ADJAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 96CD2BDC1A13BFC600A40AFB /* NSString+ADJAdditions.h */; };
-		9DD885B31B205CC40073D9AC /* NSString+ADJAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 96CD2BDD1A13BFC600A40AFB /* NSString+ADJAdditions.m */; };
-		9DD885B41B205CC40073D9AC /* UIDevice+ADJAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 96CD2BDE1A13BFC600A40AFB /* UIDevice+ADJAdditions.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		9DD885B51B205CC40073D9AC /* UIDevice+ADJAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 96CD2BDF1A13BFC600A40AFB /* UIDevice+ADJAdditions.m */; };
-		9DD885B61B205CC40073D9AC /* NSData+ADJAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 96C93DF31AC47F2E00B53F56 /* NSData+ADJAdditions.h */; };
-		9DD885B71B205CC40073D9AC /* NSData+ADJAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 96C93DF41AC47F2E00B53F56 /* NSData+ADJAdditions.m */; };
-		9DD885B81B205CC40073D9AC /* Adjust.h in Headers */ = {isa = PBXBuildFile; fileRef = 96E5E34C18BBB48A008E7B30 /* Adjust.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		9DD885B91B205CC40073D9AC /* Adjust.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E5E34D18BBB48A008E7B30 /* Adjust.m */; };
-		9DD885BA1B205CC40073D9AC /* ADJActivityHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 96E5E36218BBB48A008E7B30 /* ADJActivityHandler.h */; };
-		9DD885BB1B205CC40073D9AC /* ADJActivityHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E5E36318BBB48A008E7B30 /* ADJActivityHandler.m */; };
-		9DD885BC1B205CC40073D9AC /* ADJActivityKind.h in Headers */ = {isa = PBXBuildFile; fileRef = 96E5E36418BBB48A008E7B30 /* ADJActivityKind.h */; };
-		9DD885BD1B205CC40073D9AC /* ADJActivityKind.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E5E36518BBB48A008E7B30 /* ADJActivityKind.m */; };
-		9DD885BE1B205CC40073D9AC /* ADJActivityPackage.h in Headers */ = {isa = PBXBuildFile; fileRef = 96E5E36618BBB48A008E7B30 /* ADJActivityPackage.h */; };
-		9DD885BF1B205CC40073D9AC /* ADJActivityPackage.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E5E36718BBB48A008E7B30 /* ADJActivityPackage.m */; };
-		9DD885C01B205CC40073D9AC /* ADJActivityState.h in Headers */ = {isa = PBXBuildFile; fileRef = 96E5E36818BBB48A008E7B30 /* ADJActivityState.h */; };
-		9DD885C11B205CC40073D9AC /* ADJActivityState.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E5E36918BBB48A008E7B30 /* ADJActivityState.m */; };
-		9DD885C21B205CC40073D9AC /* ADJAdjustFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 96E5E37118BBB48A008E7B30 /* ADJAdjustFactory.h */; };
-		9DD885C31B205CC40073D9AC /* ADJAdjustFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E5E37218BBB48A008E7B30 /* ADJAdjustFactory.m */; };
-		9DD885C41B205CC40073D9AC /* ADJLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 96E5E37318BBB48A008E7B30 /* ADJLogger.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		9DD885C51B205CC40073D9AC /* ADJLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E5E37418BBB48A008E7B30 /* ADJLogger.m */; };
-		9DD885C61B205CC40073D9AC /* ADJPackageBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 96E5E37518BBB48A008E7B30 /* ADJPackageBuilder.h */; };
-		9DD885C71B205CC40073D9AC /* ADJPackageBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E5E37618BBB48A008E7B30 /* ADJPackageBuilder.m */; };
-		9DD885C81B205CC40073D9AC /* ADJPackageHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 96E5E37718BBB48A008E7B30 /* ADJPackageHandler.h */; };
-		9DD885C91B205CC40073D9AC /* ADJPackageHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E5E37818BBB48A008E7B30 /* ADJPackageHandler.m */; };
-		9DD885CA1B205CC40073D9AC /* ADJRequestHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 96E5E37918BBB48A008E7B30 /* ADJRequestHandler.h */; };
-		9DD885CB1B205CC40073D9AC /* ADJRequestHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E5E37A18BBB48A008E7B30 /* ADJRequestHandler.m */; };
-		9DD885CC1B205CC40073D9AC /* ADJTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = 96E5E37D18BBB48A008E7B30 /* ADJTimer.h */; };
-		9DD885CD1B205CC40073D9AC /* ADJTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E5E37E18BBB48A008E7B30 /* ADJTimer.m */; };
-		9DD885CE1B205CC40073D9AC /* ADJUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 96E5E37F18BBB48A008E7B30 /* ADJUtil.h */; };
-		9DD885CF1B205CC40073D9AC /* ADJUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E5E38018BBB48A008E7B30 /* ADJUtil.m */; };
-		9DD885D01B205CC40073D9AC /* ADJEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 9609BC6819EEA55800E02303 /* ADJEvent.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		9DD885D11B205CC40073D9AC /* ADJEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 9609BC6919EEA55800E02303 /* ADJEvent.m */; };
-		9DD885D21B205CC40073D9AC /* ADJDeviceInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 9644B7EA19F148F3008576FC /* ADJDeviceInfo.h */; };
-		9DD885D31B205CC40073D9AC /* ADJDeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 965307F51A000DA400107FF9 /* ADJDeviceInfo.m */; };
-		9DD885D41B205CC40073D9AC /* ADJAttributionHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 969952CD1A012F5300928462 /* ADJAttributionHandler.h */; };
-		9DD885D51B205CC40073D9AC /* ADJAttributionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 969952CE1A012F5300928462 /* ADJAttributionHandler.m */; };
-		9DD885D61B205CC40073D9AC /* ADJAttribution.h in Headers */ = {isa = PBXBuildFile; fileRef = 969952D01A01309200928462 /* ADJAttribution.h */; };
-		9DD885D71B205CC40073D9AC /* ADJAttribution.m in Sources */ = {isa = PBXBuildFile; fileRef = 969952D11A01309200928462 /* ADJAttribution.m */; };
-		9DD885D81B205CC40073D9AC /* ADJConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 960A8BB71A029A8000F2BB95 /* ADJConfig.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		9DD885D91B205CC40073D9AC /* ADJConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 960A8BB81A029A8000F2BB95 /* ADJConfig.m */; };
 		9DE7C8FD1AE688DA001556E5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DE7C8FC1AE688DA001556E5 /* UIKit.framework */; };
+		9DF8AA031B209FC100A0865D /* AdjustDynamic.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DF8AA021B209FC100A0865D /* AdjustDynamic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9DF8AA091B209FC100A0865D /* AdjustDynamic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DF8A9FE1B209FC100A0865D /* AdjustDynamic.framework */; };
+		9DF8AA101B209FC100A0865D /* AdjustDynamicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DF8AA0F1B209FC100A0865D /* AdjustDynamicTests.m */; };
+		9DF8AA1C1B20A1ED00A0865D /* NSString+ADJAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 96CD2BDC1A13BFC600A40AFB /* NSString+ADJAdditions.h */; };
+		9DF8AA1D1B20A1ED00A0865D /* NSString+ADJAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 96CD2BDD1A13BFC600A40AFB /* NSString+ADJAdditions.m */; };
+		9DF8AA1E1B20A1ED00A0865D /* UIDevice+ADJAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 96CD2BDE1A13BFC600A40AFB /* UIDevice+ADJAdditions.h */; };
+		9DF8AA1F1B20A1ED00A0865D /* UIDevice+ADJAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 96CD2BDF1A13BFC600A40AFB /* UIDevice+ADJAdditions.m */; };
+		9DF8AA201B20A1ED00A0865D /* NSData+ADJAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 96C93DF31AC47F2E00B53F56 /* NSData+ADJAdditions.h */; };
+		9DF8AA211B20A1ED00A0865D /* NSData+ADJAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 96C93DF41AC47F2E00B53F56 /* NSData+ADJAdditions.m */; };
+		9DF8AA221B20A1ED00A0865D /* Adjust.h in Headers */ = {isa = PBXBuildFile; fileRef = 96E5E34C18BBB48A008E7B30 /* Adjust.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9DF8AA231B20A1ED00A0865D /* Adjust.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E5E34D18BBB48A008E7B30 /* Adjust.m */; };
+		9DF8AA241B20A1ED00A0865D /* ADJActivityHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 96E5E36218BBB48A008E7B30 /* ADJActivityHandler.h */; };
+		9DF8AA251B20A1ED00A0865D /* ADJActivityHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E5E36318BBB48A008E7B30 /* ADJActivityHandler.m */; };
+		9DF8AA261B20A1ED00A0865D /* ADJActivityKind.h in Headers */ = {isa = PBXBuildFile; fileRef = 96E5E36418BBB48A008E7B30 /* ADJActivityKind.h */; };
+		9DF8AA271B20A1ED00A0865D /* ADJActivityKind.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E5E36518BBB48A008E7B30 /* ADJActivityKind.m */; };
+		9DF8AA281B20A1ED00A0865D /* ADJActivityPackage.h in Headers */ = {isa = PBXBuildFile; fileRef = 96E5E36618BBB48A008E7B30 /* ADJActivityPackage.h */; };
+		9DF8AA291B20A1ED00A0865D /* ADJActivityPackage.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E5E36718BBB48A008E7B30 /* ADJActivityPackage.m */; };
+		9DF8AA2A1B20A1ED00A0865D /* ADJActivityState.h in Headers */ = {isa = PBXBuildFile; fileRef = 96E5E36818BBB48A008E7B30 /* ADJActivityState.h */; };
+		9DF8AA2B1B20A1ED00A0865D /* ADJActivityState.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E5E36918BBB48A008E7B30 /* ADJActivityState.m */; };
+		9DF8AA2C1B20A1ED00A0865D /* ADJAdjustFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 96E5E37118BBB48A008E7B30 /* ADJAdjustFactory.h */; };
+		9DF8AA2D1B20A1ED00A0865D /* ADJAdjustFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E5E37218BBB48A008E7B30 /* ADJAdjustFactory.m */; };
+		9DF8AA2E1B20A1ED00A0865D /* ADJLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 96E5E37318BBB48A008E7B30 /* ADJLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9DF8AA2F1B20A1ED00A0865D /* ADJLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E5E37418BBB48A008E7B30 /* ADJLogger.m */; };
+		9DF8AA301B20A1ED00A0865D /* ADJPackageBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 96E5E37518BBB48A008E7B30 /* ADJPackageBuilder.h */; };
+		9DF8AA311B20A1ED00A0865D /* ADJPackageBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E5E37618BBB48A008E7B30 /* ADJPackageBuilder.m */; };
+		9DF8AA321B20A1ED00A0865D /* ADJPackageHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 96E5E37718BBB48A008E7B30 /* ADJPackageHandler.h */; };
+		9DF8AA331B20A1ED00A0865D /* ADJPackageHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E5E37818BBB48A008E7B30 /* ADJPackageHandler.m */; };
+		9DF8AA341B20A1ED00A0865D /* ADJRequestHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 96E5E37918BBB48A008E7B30 /* ADJRequestHandler.h */; };
+		9DF8AA351B20A1ED00A0865D /* ADJRequestHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E5E37A18BBB48A008E7B30 /* ADJRequestHandler.m */; };
+		9DF8AA361B20A1ED00A0865D /* ADJTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = 96E5E37D18BBB48A008E7B30 /* ADJTimer.h */; };
+		9DF8AA371B20A1ED00A0865D /* ADJTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E5E37E18BBB48A008E7B30 /* ADJTimer.m */; };
+		9DF8AA381B20A1ED00A0865D /* ADJUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 96E5E37F18BBB48A008E7B30 /* ADJUtil.h */; };
+		9DF8AA391B20A1ED00A0865D /* ADJUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E5E38018BBB48A008E7B30 /* ADJUtil.m */; };
+		9DF8AA3A1B20A1ED00A0865D /* ADJEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 9609BC6819EEA55800E02303 /* ADJEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9DF8AA3B1B20A1ED00A0865D /* ADJEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 9609BC6919EEA55800E02303 /* ADJEvent.m */; };
+		9DF8AA3C1B20A1ED00A0865D /* ADJDeviceInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 9644B7EA19F148F3008576FC /* ADJDeviceInfo.h */; };
+		9DF8AA3D1B20A1ED00A0865D /* ADJDeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 965307F51A000DA400107FF9 /* ADJDeviceInfo.m */; };
+		9DF8AA3E1B20A1ED00A0865D /* ADJAttributionHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 969952CD1A012F5300928462 /* ADJAttributionHandler.h */; };
+		9DF8AA3F1B20A1ED00A0865D /* ADJAttributionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 969952CE1A012F5300928462 /* ADJAttributionHandler.m */; };
+		9DF8AA401B20A1ED00A0865D /* ADJAttribution.h in Headers */ = {isa = PBXBuildFile; fileRef = 969952D01A01309200928462 /* ADJAttribution.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9DF8AA411B20A1ED00A0865D /* ADJAttribution.m in Sources */ = {isa = PBXBuildFile; fileRef = 969952D11A01309200928462 /* ADJAttribution.m */; };
+		9DF8AA421B20A1ED00A0865D /* ADJConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 960A8BB71A029A8000F2BB95 /* ADJConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9DF8AA431B20A1ED00A0865D /* ADJConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 960A8BB81A029A8000F2BB95 /* ADJConfig.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -155,19 +155,19 @@
 			remoteGlobalIDString = 9679920C18BBAE2800394606;
 			remoteInfo = Adjust;
 		};
-		9DD885A51B205C700073D9AC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9679920518BBAE2800394606 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9DD885981B205C700073D9AC;
-			remoteInfo = AdjustFramework;
-		};
 		9DE7C8FF1AE68EF1001556E5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 9679920518BBAE2800394606 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 9679920C18BBAE2800394606;
 			remoteInfo = Adjust;
+		};
+		9DF8AA0A1B209FC100A0865D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9679920518BBAE2800394606 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DF8A9FD1B209FC100A0865D;
+			remoteInfo = AdjustDynamic;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -256,13 +256,13 @@
 		96ED00381A38A4CD00209110 /* ADJAttributionHandlerMock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADJAttributionHandlerMock.m; sourceTree = "<group>"; };
 		96ED003C1A38A98C00209110 /* ADJDelegateTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADJDelegateTest.h; sourceTree = "<group>"; };
 		96ED003D1A38A98C00209110 /* ADJDelegateTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADJDelegateTest.m; sourceTree = "<group>"; };
-		9DD885991B205C700073D9AC /* AdjustFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AdjustFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9DD8859C1B205C700073D9AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9DD8859D1B205C700073D9AC /* AdjustFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdjustFramework.h; sourceTree = "<group>"; };
-		9DD885A31B205C700073D9AC /* AdjustFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdjustFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9DD885A91B205C700073D9AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9DD885AA1B205C700073D9AC /* AdjustFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdjustFrameworkTests.m; sourceTree = "<group>"; };
 		9DE7C8FC1AE688DA001556E5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9DF8A9FE1B209FC100A0865D /* AdjustDynamic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AdjustDynamic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DF8AA011B209FC100A0865D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DF8AA021B209FC100A0865D /* AdjustDynamic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdjustDynamic.h; sourceTree = "<group>"; };
+		9DF8AA081B209FC100A0865D /* AdjustDynamicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdjustDynamicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DF8AA0E1B209FC100A0865D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DF8AA0F1B209FC100A0865D /* AdjustDynamicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdjustDynamicTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -290,18 +290,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9DD885951B205C700073D9AC /* Frameworks */ = {
+		9DF8A9FA1B209FC100A0865D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9DD885A01B205C700073D9AC /* Frameworks */ = {
+		9DF8AA051B209FC100A0865D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DD885A41B205C700073D9AC /* AdjustFramework.framework in Frameworks */,
+				9DF8AA091B209FC100A0865D /* AdjustDynamic.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,8 +322,8 @@
 			children = (
 				960FCF491A1B9ACE00282BD4 /* example.xcodeproj */,
 				96E5E39A18BBB49E008E7B30 /* AdjustTests */,
-				9DD8859A1B205C700073D9AC /* AdjustFramework */,
-				9DD885A71B205C700073D9AC /* AdjustFrameworkTests */,
+				9DF8A9FF1B209FC100A0865D /* AdjustDynamic */,
+				9DF8AA0C1B209FC100A0865D /* AdjustDynamicTests */,
 				9679920F18BBAE2800394606 /* Frameworks */,
 				9679920E18BBAE2800394606 /* Products */,
 			);
@@ -334,8 +334,8 @@
 			children = (
 				9679920D18BBAE2800394606 /* libAdjust.a */,
 				9679921D18BBAE2800394606 /* AdjustTests.xctest */,
-				9DD885991B205C700073D9AC /* AdjustFramework.framework */,
-				9DD885A31B205C700073D9AC /* AdjustFrameworkTests.xctest */,
+				9DF8A9FE1B209FC100A0865D /* AdjustDynamic.framework */,
+				9DF8AA081B209FC100A0865D /* AdjustDynamicTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -439,37 +439,37 @@
 			path = AdjustTests;
 			sourceTree = "<group>";
 		};
-		9DD8859A1B205C700073D9AC /* AdjustFramework */ = {
+		9DF8A9FF1B209FC100A0865D /* AdjustDynamic */ = {
 			isa = PBXGroup;
 			children = (
-				9DD8859D1B205C700073D9AC /* AdjustFramework.h */,
+				9DF8AA021B209FC100A0865D /* AdjustDynamic.h */,
 				96E5E34B18BBB48A008E7B30 /* Adjust */,
-				9DD8859B1B205C700073D9AC /* Supporting Files */,
+				9DF8AA001B209FC100A0865D /* Supporting Files */,
 			);
-			path = AdjustFramework;
+			path = AdjustDynamic;
 			sourceTree = "<group>";
 		};
-		9DD8859B1B205C700073D9AC /* Supporting Files */ = {
+		9DF8AA001B209FC100A0865D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				9DD8859C1B205C700073D9AC /* Info.plist */,
+				9DF8AA011B209FC100A0865D /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		9DD885A71B205C700073D9AC /* AdjustFrameworkTests */ = {
+		9DF8AA0C1B209FC100A0865D /* AdjustDynamicTests */ = {
 			isa = PBXGroup;
 			children = (
-				9DD885AA1B205C700073D9AC /* AdjustFrameworkTests.m */,
-				9DD885A81B205C700073D9AC /* Supporting Files */,
+				9DF8AA0F1B209FC100A0865D /* AdjustDynamicTests.m */,
+				9DF8AA0D1B209FC100A0865D /* Supporting Files */,
 			);
-			path = AdjustFrameworkTests;
+			path = AdjustDynamicTests;
 			sourceTree = "<group>";
 		};
-		9DD885A81B205C700073D9AC /* Supporting Files */ = {
+		9DF8AA0D1B209FC100A0865D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				9DD885A91B205C700073D9AC /* Info.plist */,
+				9DF8AA0E1B209FC100A0865D /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -504,31 +504,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9DD885961B205C700073D9AC /* Headers */ = {
+		9DF8A9FB1B209FC100A0865D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DD885C21B205CC40073D9AC /* ADJAdjustFactory.h in Headers */,
-				9DD885CA1B205CC40073D9AC /* ADJRequestHandler.h in Headers */,
-				9DD885BC1B205CC40073D9AC /* ADJActivityKind.h in Headers */,
-				9DD885C81B205CC40073D9AC /* ADJPackageHandler.h in Headers */,
-				9DD885C41B205CC40073D9AC /* ADJLogger.h in Headers */,
-				9DD885B41B205CC40073D9AC /* UIDevice+ADJAdditions.h in Headers */,
-				9DD885D21B205CC40073D9AC /* ADJDeviceInfo.h in Headers */,
-				9DD885BE1B205CC40073D9AC /* ADJActivityPackage.h in Headers */,
-				9DD885B21B205CC40073D9AC /* NSString+ADJAdditions.h in Headers */,
-				9DD885BA1B205CC40073D9AC /* ADJActivityHandler.h in Headers */,
-				9DD8859E1B205C700073D9AC /* AdjustFramework.h in Headers */,
-				9DD885B61B205CC40073D9AC /* NSData+ADJAdditions.h in Headers */,
-				9DD885B81B205CC40073D9AC /* Adjust.h in Headers */,
-				9DD885CE1B205CC40073D9AC /* ADJUtil.h in Headers */,
-				9DD885C01B205CC40073D9AC /* ADJActivityState.h in Headers */,
-				9DD885D41B205CC40073D9AC /* ADJAttributionHandler.h in Headers */,
-				9DD885C61B205CC40073D9AC /* ADJPackageBuilder.h in Headers */,
-				9DD885CC1B205CC40073D9AC /* ADJTimer.h in Headers */,
-				9DD885D61B205CC40073D9AC /* ADJAttribution.h in Headers */,
-				9DD885D81B205CC40073D9AC /* ADJConfig.h in Headers */,
-				9DD885D01B205CC40073D9AC /* ADJEvent.h in Headers */,
+				9DF8AA2C1B20A1ED00A0865D /* ADJAdjustFactory.h in Headers */,
+				9DF8AA341B20A1ED00A0865D /* ADJRequestHandler.h in Headers */,
+				9DF8AA261B20A1ED00A0865D /* ADJActivityKind.h in Headers */,
+				9DF8AA321B20A1ED00A0865D /* ADJPackageHandler.h in Headers */,
+				9DF8AA2E1B20A1ED00A0865D /* ADJLogger.h in Headers */,
+				9DF8AA1E1B20A1ED00A0865D /* UIDevice+ADJAdditions.h in Headers */,
+				9DF8AA3C1B20A1ED00A0865D /* ADJDeviceInfo.h in Headers */,
+				9DF8AA281B20A1ED00A0865D /* ADJActivityPackage.h in Headers */,
+				9DF8AA1C1B20A1ED00A0865D /* NSString+ADJAdditions.h in Headers */,
+				9DF8AA241B20A1ED00A0865D /* ADJActivityHandler.h in Headers */,
+				9DF8AA031B209FC100A0865D /* AdjustDynamic.h in Headers */,
+				9DF8AA201B20A1ED00A0865D /* NSData+ADJAdditions.h in Headers */,
+				9DF8AA221B20A1ED00A0865D /* Adjust.h in Headers */,
+				9DF8AA381B20A1ED00A0865D /* ADJUtil.h in Headers */,
+				9DF8AA2A1B20A1ED00A0865D /* ADJActivityState.h in Headers */,
+				9DF8AA3E1B20A1ED00A0865D /* ADJAttributionHandler.h in Headers */,
+				9DF8AA301B20A1ED00A0865D /* ADJPackageBuilder.h in Headers */,
+				9DF8AA361B20A1ED00A0865D /* ADJTimer.h in Headers */,
+				9DF8AA401B20A1ED00A0865D /* ADJAttribution.h in Headers */,
+				9DF8AA421B20A1ED00A0865D /* ADJConfig.h in Headers */,
+				9DF8AA3A1B20A1ED00A0865D /* ADJEvent.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -572,40 +572,40 @@
 			productReference = 9679921D18BBAE2800394606 /* AdjustTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		9DD885981B205C700073D9AC /* AdjustFramework */ = {
+		9DF8A9FD1B209FC100A0865D /* AdjustDynamic */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9DD885AC1B205C700073D9AC /* Build configuration list for PBXNativeTarget "AdjustFramework" */;
+			buildConfigurationList = 9DF8AA111B209FC100A0865D /* Build configuration list for PBXNativeTarget "AdjustDynamic" */;
 			buildPhases = (
-				9DD885941B205C700073D9AC /* Sources */,
-				9DD885951B205C700073D9AC /* Frameworks */,
-				9DD885961B205C700073D9AC /* Headers */,
-				9DD885971B205C700073D9AC /* Resources */,
+				9DF8A9F91B209FC100A0865D /* Sources */,
+				9DF8A9FA1B209FC100A0865D /* Frameworks */,
+				9DF8A9FB1B209FC100A0865D /* Headers */,
+				9DF8A9FC1B209FC100A0865D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = AdjustFramework;
-			productName = AdjustFramework;
-			productReference = 9DD885991B205C700073D9AC /* AdjustFramework.framework */;
+			name = AdjustDynamic;
+			productName = AdjustDynamic;
+			productReference = 9DF8A9FE1B209FC100A0865D /* AdjustDynamic.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		9DD885A21B205C700073D9AC /* AdjustFrameworkTests */ = {
+		9DF8AA071B209FC100A0865D /* AdjustDynamicTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9DD885AF1B205C700073D9AC /* Build configuration list for PBXNativeTarget "AdjustFrameworkTests" */;
+			buildConfigurationList = 9DF8AA141B209FC100A0865D /* Build configuration list for PBXNativeTarget "AdjustDynamicTests" */;
 			buildPhases = (
-				9DD8859F1B205C700073D9AC /* Sources */,
-				9DD885A01B205C700073D9AC /* Frameworks */,
-				9DD885A11B205C700073D9AC /* Resources */,
+				9DF8AA041B209FC100A0865D /* Sources */,
+				9DF8AA051B209FC100A0865D /* Frameworks */,
+				9DF8AA061B209FC100A0865D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9DD885A61B205C700073D9AC /* PBXTargetDependency */,
+				9DF8AA0B1B209FC100A0865D /* PBXTargetDependency */,
 			);
-			name = AdjustFrameworkTests;
-			productName = AdjustFrameworkTests;
-			productReference = 9DD885A31B205C700073D9AC /* AdjustFrameworkTests.xctest */;
+			name = AdjustDynamicTests;
+			productName = AdjustDynamicTests;
+			productReference = 9DF8AA081B209FC100A0865D /* AdjustDynamicTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -614,16 +614,16 @@
 		9679920518BBAE2800394606 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0620;
+				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "adjust GmbH";
 				TargetAttributes = {
 					96BCFBE71AC99FBD005A65C5 = {
 						CreatedOnToolsVersion = 6.2;
 					};
-					9DD885981B205C700073D9AC = {
+					9DF8A9FD1B209FC100A0865D = {
 						CreatedOnToolsVersion = 6.3.2;
 					};
-					9DD885A21B205C700073D9AC = {
+					9DF8AA071B209FC100A0865D = {
 						CreatedOnToolsVersion = 6.3.2;
 					};
 				};
@@ -649,8 +649,8 @@
 				9679920C18BBAE2800394606 /* Adjust */,
 				9679921C18BBAE2800394606 /* AdjustTests */,
 				96BCFBE71AC99FBD005A65C5 /* framework */,
-				9DD885981B205C700073D9AC /* AdjustFramework */,
-				9DD885A21B205C700073D9AC /* AdjustFrameworkTests */,
+				9DF8A9FD1B209FC100A0865D /* AdjustDynamic */,
+				9DF8AA071B209FC100A0865D /* AdjustDynamicTests */,
 			);
 		};
 /* End PBXProject section */
@@ -681,14 +681,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9DD885971B205C700073D9AC /* Resources */ = {
+		9DF8A9FC1B209FC100A0865D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9DD885A11B205C700073D9AC /* Resources */ = {
+		9DF8AA061B209FC100A0865D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -710,7 +710,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "set -e\n\nexport FRAMEWORK_LOCN=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework\"\n\n# Create the path to the real Headers die\nmkdir -p \"${FRAMEWORK_LOCN}/Versions/A/Headers\"\n\n# Create the required symlinks\n/bin/ln -sfh A \"${FRAMEWORK_LOCN}/Versions/Current\"\n/bin/ln -sfh Versions/Current/Headers \"${FRAMEWORK_LOCN}/Headers\"\n/bin/ln -sfh \"Versions/Current/${PRODUCT_NAME}\" \\\n\"${FRAMEWORK_LOCN}/${PRODUCT_NAME}\"\n\n# Copy the public headers into the framework\n/bin/cp -a \"${TARGET_BUILD_DIR}/${PUBLIC_HEADERS_FOLDER_PATH}/\" \\\n\"${FRAMEWORK_LOCN}/Versions/A/Headers\"";
+			shellScript = "set -e\n\nexport FRAMEWORK_LOCN=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}Static.framework\"\n\n# Create the path to the real Headers die\nmkdir -p \"${FRAMEWORK_LOCN}/Versions/A/Headers\"\n\n# Create the required symlinks\n/bin/ln -sfh A \"${FRAMEWORK_LOCN}/Versions/Current\"\n/bin/ln -sfh Versions/Current/Headers \"${FRAMEWORK_LOCN}/Headers\"\n/bin/ln -sfh \"Versions/Current/${PRODUCT_NAME}\" \\\n\"${FRAMEWORK_LOCN}/${PRODUCT_NAME}\"\n\n# Copy the public headers into the framework\n/bin/cp -a \"${TARGET_BUILD_DIR}/${PUBLIC_HEADERS_FOLDER_PATH}/\" \\\n\"${FRAMEWORK_LOCN}/Versions/A/Headers\"";
 		};
 		9DE7C9021AE68FA5001556E5 /* MultiPlatform Build */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -724,7 +724,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "set -e\n\n# If we're already inside this script then die\nif [ -n \"$RW_MULTIPLATFORM_BUILD_IN_PROGRESS\" ]; then\nexit 0\nfi\nexport RW_MULTIPLATFORM_BUILD_IN_PROGRESS=1\n\nRW_FRAMEWORK_NAME=${PROJECT_NAME}\nRW_INPUT_STATIC_LIB=\"lib${PROJECT_NAME}.a\"\nRW_FRAMEWORK_LOCATION=\"${BUILT_PRODUCTS_DIR}/${RW_FRAMEWORK_NAME}.framework\"\n\nfunction build_static_library {\n    # Will rebuild the static library as specified\n    #     build_static_library sdk\n    xcrun xcodebuild -project \"${PROJECT_FILE_PATH}\" \\\n    -target \"${TARGET_NAME}\" \\\n    -configuration \"${CONFIGURATION}\" \\\n    -sdk \"${1}\" \\\n    ONLY_ACTIVE_ARCH=NO \\\n    BUILD_DIR=\"${BUILD_DIR}\" \\\n    OBJROOT=\"${OBJROOT}\" \\\n    BUILD_ROOT=\"${BUILD_ROOT}\" \\\n    SYMROOT=\"${SYMROOT}\" $ACTION\n}\n\nfunction make_fat_library {\n    # Will smash 2 static libs together\n    #     make_fat_library in1 in2 out\n    xcrun lipo -create \"${1}\" \"${2}\" -output \"${3}\"\n}\n\n# 1 - Extract the platform (iphoneos/iphonesimulator) from the SDK name\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]; then\nRW_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\necho \"Could not find platform name from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\n# 2 - Extract the version from the SDK\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]; then\nRW_SDK_VERSION=${BASH_REMATCH[1]}\nelse\necho \"Could not find sdk version from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\n# 3 - Determine the other platform\nif [ \"$RW_SDK_PLATFORM\" == \"iphoneos\" ]; then\nRW_OTHER_PLATFORM=iphonesimulator\nelse\nRW_OTHER_PLATFORM=iphoneos\nfi\n\n# 4 - Find the build directory\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$RW_SDK_PLATFORM$ ]]; then\nRW_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${RW_OTHER_PLATFORM}\"\nelse\necho \"Could not find other platform build directory.\"\nexit 1\nfi\n\n# Build the other platform.\nbuild_static_library \"${RW_OTHER_PLATFORM}${RW_SDK_VERSION}\"\n\n# If we're currently building for iphonesimulator, then need to rebuild\n#   to ensure that we get both i386 and x86_64\nif [ \"$RW_SDK_PLATFORM\" == \"iphonesimulator\" ]; then\nbuild_static_library \"${SDK_NAME}\"\nfi\n\n# Join the 2 static libs into 1 and push into the .framework\nmake_fat_library \"${BUILT_PRODUCTS_DIR}/${RW_INPUT_STATIC_LIB}\" \\\n\"${RW_OTHER_BUILT_PRODUCTS_DIR}/${RW_INPUT_STATIC_LIB}\" \\\n\"${RW_FRAMEWORK_LOCATION}/Versions/A/${RW_FRAMEWORK_NAME}\"\n\n# Ensure that the framework is present in both platform's build directories\ncp -a \"${RW_FRAMEWORK_LOCATION}/Versions/A/${RW_FRAMEWORK_NAME}\" \\\n\"${RW_OTHER_BUILT_PRODUCTS_DIR}/${RW_FRAMEWORK_NAME}.framework/Versions/A/${RW_FRAMEWORK_NAME}\"";
+			shellScript = "set -e\n\n# If we're already inside this script then die\nif [ -n \"$RW_MULTIPLATFORM_BUILD_IN_PROGRESS\" ]; then\nexit 0\nfi\nexport RW_MULTIPLATFORM_BUILD_IN_PROGRESS=1\n\nRW_FRAMEWORK_NAME=\"${PROJECT_NAME}Static\"\nRW_INPUT_STATIC_LIB=\"lib${PROJECT_NAME}.a\"\nRW_FRAMEWORK_LOCATION=\"${BUILT_PRODUCTS_DIR}/${RW_FRAMEWORK_NAME}.framework\"\n\nfunction build_static_library {\n    # Will rebuild the static library as specified\n    #     build_static_library sdk\n    xcrun xcodebuild -project \"${PROJECT_FILE_PATH}\" \\\n    -target \"${TARGET_NAME}\" \\\n    -configuration \"${CONFIGURATION}\" \\\n    -sdk \"${1}\" \\\n    ONLY_ACTIVE_ARCH=NO \\\n    BUILD_DIR=\"${BUILD_DIR}\" \\\n    OBJROOT=\"${OBJROOT}\" \\\n    BUILD_ROOT=\"${BUILD_ROOT}\" \\\n    SYMROOT=\"${SYMROOT}\" $ACTION\n}\n\nfunction make_fat_library {\n    # Will smash 2 static libs together\n    #     make_fat_library in1 in2 out\n    xcrun lipo -create \"${1}\" \"${2}\" -output \"${3}\"\n}\n\n# 1 - Extract the platform (iphoneos/iphonesimulator) from the SDK name\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]; then\nRW_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\necho \"Could not find platform name from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\n# 2 - Extract the version from the SDK\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]; then\nRW_SDK_VERSION=${BASH_REMATCH[1]}\nelse\necho \"Could not find sdk version from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\n# 3 - Determine the other platform\nif [ \"$RW_SDK_PLATFORM\" == \"iphoneos\" ]; then\nRW_OTHER_PLATFORM=iphonesimulator\nelse\nRW_OTHER_PLATFORM=iphoneos\nfi\n\n# 4 - Find the build directory\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$RW_SDK_PLATFORM$ ]]; then\nRW_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${RW_OTHER_PLATFORM}\"\nelse\necho \"Could not find other platform build directory.\"\nexit 1\nfi\n\n# Build the other platform.\nbuild_static_library \"${RW_OTHER_PLATFORM}${RW_SDK_VERSION}\"\n\n# If we're currently building for iphonesimulator, then need to rebuild\n#   to ensure that we get both i386 and x86_64\nif [ \"$RW_SDK_PLATFORM\" == \"iphonesimulator\" ]; then\nbuild_static_library \"${SDK_NAME}\"\nfi\n\n# Join the 2 static libs into 1 and push into the .framework\nmake_fat_library \"${BUILT_PRODUCTS_DIR}/${RW_INPUT_STATIC_LIB}\" \\\n\"${RW_OTHER_BUILT_PRODUCTS_DIR}/${RW_INPUT_STATIC_LIB}\" \\\n\"${RW_FRAMEWORK_LOCATION}/Versions/A/${RW_FRAMEWORK_NAME}\"\n\n# Ensure that the framework is present in both platform's build directories\ncp -a \"${RW_FRAMEWORK_LOCATION}/Versions/A/${RW_FRAMEWORK_NAME}\" \\\n\"${RW_OTHER_BUILT_PRODUCTS_DIR}/${RW_FRAMEWORK_NAME}.framework/Versions/A/${RW_FRAMEWORK_NAME}\"";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -778,38 +778,38 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9DD885941B205C700073D9AC /* Sources */ = {
+		9DF8A9F91B209FC100A0865D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DD885CB1B205CC40073D9AC /* ADJRequestHandler.m in Sources */,
-				9DD885B31B205CC40073D9AC /* NSString+ADJAdditions.m in Sources */,
-				9DD885B71B205CC40073D9AC /* NSData+ADJAdditions.m in Sources */,
-				9DD885C31B205CC40073D9AC /* ADJAdjustFactory.m in Sources */,
-				9DD885D31B205CC40073D9AC /* ADJDeviceInfo.m in Sources */,
-				9DD885C11B205CC40073D9AC /* ADJActivityState.m in Sources */,
-				9DD885CD1B205CC40073D9AC /* ADJTimer.m in Sources */,
-				9DD885D11B205CC40073D9AC /* ADJEvent.m in Sources */,
-				9DD885B91B205CC40073D9AC /* Adjust.m in Sources */,
-				9DD885BF1B205CC40073D9AC /* ADJActivityPackage.m in Sources */,
-				9DD885BB1B205CC40073D9AC /* ADJActivityHandler.m in Sources */,
-				9DD885BD1B205CC40073D9AC /* ADJActivityKind.m in Sources */,
-				9DD885CF1B205CC40073D9AC /* ADJUtil.m in Sources */,
-				9DD885C71B205CC40073D9AC /* ADJPackageBuilder.m in Sources */,
-				9DD885B51B205CC40073D9AC /* UIDevice+ADJAdditions.m in Sources */,
-				9DD885D71B205CC40073D9AC /* ADJAttribution.m in Sources */,
-				9DD885C51B205CC40073D9AC /* ADJLogger.m in Sources */,
-				9DD885D51B205CC40073D9AC /* ADJAttributionHandler.m in Sources */,
-				9DD885C91B205CC40073D9AC /* ADJPackageHandler.m in Sources */,
-				9DD885D91B205CC40073D9AC /* ADJConfig.m in Sources */,
+				9DF8AA351B20A1ED00A0865D /* ADJRequestHandler.m in Sources */,
+				9DF8AA1D1B20A1ED00A0865D /* NSString+ADJAdditions.m in Sources */,
+				9DF8AA211B20A1ED00A0865D /* NSData+ADJAdditions.m in Sources */,
+				9DF8AA2D1B20A1ED00A0865D /* ADJAdjustFactory.m in Sources */,
+				9DF8AA3D1B20A1ED00A0865D /* ADJDeviceInfo.m in Sources */,
+				9DF8AA2B1B20A1ED00A0865D /* ADJActivityState.m in Sources */,
+				9DF8AA371B20A1ED00A0865D /* ADJTimer.m in Sources */,
+				9DF8AA3B1B20A1ED00A0865D /* ADJEvent.m in Sources */,
+				9DF8AA231B20A1ED00A0865D /* Adjust.m in Sources */,
+				9DF8AA291B20A1ED00A0865D /* ADJActivityPackage.m in Sources */,
+				9DF8AA251B20A1ED00A0865D /* ADJActivityHandler.m in Sources */,
+				9DF8AA271B20A1ED00A0865D /* ADJActivityKind.m in Sources */,
+				9DF8AA391B20A1ED00A0865D /* ADJUtil.m in Sources */,
+				9DF8AA311B20A1ED00A0865D /* ADJPackageBuilder.m in Sources */,
+				9DF8AA1F1B20A1ED00A0865D /* UIDevice+ADJAdditions.m in Sources */,
+				9DF8AA411B20A1ED00A0865D /* ADJAttribution.m in Sources */,
+				9DF8AA2F1B20A1ED00A0865D /* ADJLogger.m in Sources */,
+				9DF8AA3F1B20A1ED00A0865D /* ADJAttributionHandler.m in Sources */,
+				9DF8AA331B20A1ED00A0865D /* ADJPackageHandler.m in Sources */,
+				9DF8AA431B20A1ED00A0865D /* ADJConfig.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9DD8859F1B205C700073D9AC /* Sources */ = {
+		9DF8AA041B209FC100A0865D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DD885AB1B205C700073D9AC /* AdjustFrameworkTests.m in Sources */,
+				9DF8AA101B209FC100A0865D /* AdjustDynamicTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -821,15 +821,15 @@
 			target = 9679920C18BBAE2800394606 /* Adjust */;
 			targetProxy = 9679922318BBAE2800394606 /* PBXContainerItemProxy */;
 		};
-		9DD885A61B205C700073D9AC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9DD885981B205C700073D9AC /* AdjustFramework */;
-			targetProxy = 9DD885A51B205C700073D9AC /* PBXContainerItemProxy */;
-		};
 		9DE7C9001AE68EF1001556E5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 9679920C18BBAE2800394606 /* Adjust */;
 			targetProxy = 9DE7C8FF1AE68EF1001556E5 /* PBXContainerItemProxy */;
+		};
+		9DF8AA0B1B209FC100A0865D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9DF8A9FD1B209FC100A0865D /* AdjustDynamic */;
+			targetProxy = 9DF8AA0A1B209FC100A0865D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -849,10 +849,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = (
-					"$(ARCHS_STANDARD)",
-					armv7s,
-				);
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -891,10 +887,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = (
-					"$(ARCHS_STANDARD)",
-					armv7s,
-				);
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -1015,7 +1007,7 @@
 			};
 			name = Release;
 		};
-		9DD885AD1B205C700073D9AC /* Debug */ = {
+		9DF8AA121B209FC100A0865D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
@@ -1034,7 +1026,7 @@
 					"$(inherited)",
 				);
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				INFOPLIST_FILE = AdjustFramework/Info.plist;
+				INFOPLIST_FILE = AdjustDynamic/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -1047,7 +1039,7 @@
 			};
 			name = Debug;
 		};
-		9DD885AE1B205C700073D9AC /* Release */ = {
+		9DF8AA131B209FC100A0865D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
@@ -1062,7 +1054,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				INFOPLIST_FILE = AdjustFramework/Info.plist;
+				INFOPLIST_FILE = AdjustDynamic/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -1075,7 +1067,7 @@
 			};
 			name = Release;
 		};
-		9DD885B01B205C700073D9AC /* Debug */ = {
+		9DF8AA151B209FC100A0865D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_WARN_UNREACHABLE_CODE = YES;
@@ -1092,7 +1084,7 @@
 					"$(inherited)",
 				);
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				INFOPLIST_FILE = AdjustFrameworkTests/Info.plist;
+				INFOPLIST_FILE = AdjustDynamicTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
@@ -1100,7 +1092,7 @@
 			};
 			name = Debug;
 		};
-		9DD885B11B205C700073D9AC /* Release */ = {
+		9DF8AA161B209FC100A0865D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_WARN_UNREACHABLE_CODE = YES;
@@ -1113,7 +1105,7 @@
 				);
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				INFOPLIST_FILE = AdjustFrameworkTests/Info.plist;
+				INFOPLIST_FILE = AdjustDynamicTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -1160,20 +1152,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9DD885AC1B205C700073D9AC /* Build configuration list for PBXNativeTarget "AdjustFramework" */ = {
+		9DF8AA111B209FC100A0865D /* Build configuration list for PBXNativeTarget "AdjustDynamic" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9DD885AD1B205C700073D9AC /* Debug */,
-				9DD885AE1B205C700073D9AC /* Release */,
+				9DF8AA121B209FC100A0865D /* Debug */,
+				9DF8AA131B209FC100A0865D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9DD885AF1B205C700073D9AC /* Build configuration list for PBXNativeTarget "AdjustFrameworkTests" */ = {
+		9DF8AA141B209FC100A0865D /* Build configuration list for PBXNativeTarget "AdjustDynamicTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9DD885B01B205C700073D9AC /* Debug */,
-				9DD885B11B205C700073D9AC /* Release */,
+				9DF8AA151B209FC100A0865D /* Debug */,
+				9DF8AA161B209FC100A0865D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

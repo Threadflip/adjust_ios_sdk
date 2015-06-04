@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import <AdjustFramework/AdjustFramework.h>
+#import <AdjustDynamic/AdjustDynamic.h>
 
 @interface ViewController ()
 

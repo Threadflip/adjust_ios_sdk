@@ -15,9 +15,9 @@
 		960FCF401A1B9ACE00282BD4 /* exampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 960FCF3F1A1B9ACE00282BD4 /* exampleTests.m */; };
 		96332C8F1A891E1100D38FAF /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96332C8E1A891E1100D38FAF /* AdSupport.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		96332C911A891E1800D38FAF /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96332C901A891E1800D38FAF /* iAd.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		9D463FF41B20B28800292A0A /* AdjustDynamic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D463FF21B20B27700292A0A /* AdjustDynamic.framework */; };
+		9D463FF51B20B28800292A0A /* AdjustDynamic.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9D463FF21B20B27700292A0A /* AdjustDynamic.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9DD885DD1B205EE00073D9AC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DD885DC1B205EE00073D9AC /* ViewController.m */; };
-		9DD885DE1B20601D0073D9AC /* AdjustFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DD885DA1B205D270073D9AC /* AdjustFramework.framework */; };
-		9DD885DF1B20601D0073D9AC /* AdjustFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9DD885DA1B205D270073D9AC /* AdjustFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,13 +31,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		9DD885E01B20601E0073D9AC /* Embed Frameworks */ = {
+		9DF8AA481B20A26B00A0865D /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				9DD885DF1B20601D0073D9AC /* AdjustFramework.framework in Embed Frameworks */,
+				9D463FF51B20B28800292A0A /* AdjustDynamic.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -59,7 +59,7 @@
 		960FCF3F1A1B9ACE00282BD4 /* exampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = exampleTests.m; sourceTree = "<group>"; };
 		96332C8E1A891E1100D38FAF /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		96332C901A891E1800D38FAF /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
-		9DD885DA1B205D270073D9AC /* AdjustFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdjustFramework.framework; path = "../../../Library/Developer/Xcode/DerivedData/Adjust-euyioynkckzexqfkcxpwqgunjhkc/Build/Products/Debug-iphoneos/AdjustFramework.framework"; sourceTree = "<group>"; };
+		9D463FF21B20B27700292A0A /* AdjustDynamic.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AdjustDynamic.framework; sourceTree = "<group>"; };
 		9DD885DC1B205EE00073D9AC /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -70,7 +70,7 @@
 			files = (
 				96332C911A891E1800D38FAF /* iAd.framework in Frameworks */,
 				96332C8F1A891E1100D38FAF /* AdSupport.framework in Frameworks */,
-				9DD885DE1B20601D0073D9AC /* AdjustFramework.framework in Frameworks */,
+				9D463FF41B20B28800292A0A /* AdjustDynamic.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,7 +87,7 @@
 		960FCF171A1B9ACE00282BD4 = {
 			isa = PBXGroup;
 			children = (
-				9DD885DA1B205D270073D9AC /* AdjustFramework.framework */,
+				9D463FF21B20B27700292A0A /* AdjustDynamic.framework */,
 				96332C901A891E1800D38FAF /* iAd.framework */,
 				96332C8E1A891E1100D38FAF /* AdSupport.framework */,
 				960FCF221A1B9ACE00282BD4 /* example */,
@@ -156,7 +156,7 @@
 				960FCF1C1A1B9ACE00282BD4 /* Sources */,
 				960FCF1D1A1B9ACE00282BD4 /* Frameworks */,
 				960FCF1E1A1B9ACE00282BD4 /* Resources */,
-				9DD885E01B20601E0073D9AC /* Embed Frameworks */,
+				9DF8AA481B20A26B00A0865D /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -378,6 +378,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Adjust-euyioynkckzexqfkcxpwqgunjhkc/Build/Products/Debug-iphoneos",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = example/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
@@ -394,6 +395,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Adjust-euyioynkckzexqfkcxpwqgunjhkc/Build/Products/Debug-iphoneos",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = example/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;

@@ -1,0 +1,6 @@
+framework module AdjustDynamic {
+  umbrella header "AdjustDynamic.h"
+
+  export *
+  module * { export * }
+}
