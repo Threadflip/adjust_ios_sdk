@@ -39,11 +39,11 @@
 		969952D21A01309200928462 /* ADJAttribution.m in Sources */ = {isa = PBXBuildFile; fileRef = 969952D11A01309200928462 /* ADJAttribution.m */; };
 		96BCFBCD1AC99231005A65C5 /* Adjust.h in Headers */ = {isa = PBXBuildFile; fileRef = 96E5E34C18BBB48A008E7B30 /* Adjust.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		96BCFBCE1AC99235005A65C5 /* ADJEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 9609BC6819EEA55800E02303 /* ADJEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		96BCFBCF1AC99239005A65C5 /* ADJLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 96E5E37318BBB48A008E7B30 /* ADJLogger.h */; };
+		96BCFBCF1AC99239005A65C5 /* ADJLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 96E5E37318BBB48A008E7B30 /* ADJLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		96BCFBD01AC9923F005A65C5 /* ADJConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 960A8BB71A029A8000F2BB95 /* ADJConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		96BCFBD11AC99246005A65C5 /* ADJAttribution.h in Headers */ = {isa = PBXBuildFile; fileRef = 969952D01A01309200928462 /* ADJAttribution.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		96BCFBD21AC99332005A65C5 /* NSString+ADJAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 96CD2BDC1A13BFC600A40AFB /* NSString+ADJAdditions.h */; };
-		96BCFBD31AC99336005A65C5 /* UIDevice+ADJAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 96CD2BDE1A13BFC600A40AFB /* UIDevice+ADJAdditions.h */; };
+		96BCFBD31AC99336005A65C5 /* UIDevice+ADJAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 96CD2BDE1A13BFC600A40AFB /* UIDevice+ADJAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		96BCFBD41AC99338005A65C5 /* NSData+ADJAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 96C93DF31AC47F2E00B53F56 /* NSData+ADJAdditions.h */; };
 		96BCFBD51AC9933E005A65C5 /* ADJActivityHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 96E5E36218BBB48A008E7B30 /* ADJActivityHandler.h */; };
 		96BCFBD61AC99345005A65C5 /* ADJActivityKind.h in Headers */ = {isa = PBXBuildFile; fileRef = 96E5E36418BBB48A008E7B30 /* ADJActivityKind.h */; };
@@ -92,7 +92,7 @@
 		9DD885AB1B205C700073D9AC /* AdjustFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DD885AA1B205C700073D9AC /* AdjustFrameworkTests.m */; };
 		9DD885B21B205CC40073D9AC /* NSString+ADJAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 96CD2BDC1A13BFC600A40AFB /* NSString+ADJAdditions.h */; };
 		9DD885B31B205CC40073D9AC /* NSString+ADJAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 96CD2BDD1A13BFC600A40AFB /* NSString+ADJAdditions.m */; };
-		9DD885B41B205CC40073D9AC /* UIDevice+ADJAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 96CD2BDE1A13BFC600A40AFB /* UIDevice+ADJAdditions.h */; };
+		9DD885B41B205CC40073D9AC /* UIDevice+ADJAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 96CD2BDE1A13BFC600A40AFB /* UIDevice+ADJAdditions.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		9DD885B51B205CC40073D9AC /* UIDevice+ADJAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 96CD2BDF1A13BFC600A40AFB /* UIDevice+ADJAdditions.m */; };
 		9DD885B61B205CC40073D9AC /* NSData+ADJAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 96C93DF31AC47F2E00B53F56 /* NSData+ADJAdditions.h */; };
 		9DD885B71B205CC40073D9AC /* NSData+ADJAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 96C93DF41AC47F2E00B53F56 /* NSData+ADJAdditions.m */; };
@@ -108,7 +108,7 @@
 		9DD885C11B205CC40073D9AC /* ADJActivityState.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E5E36918BBB48A008E7B30 /* ADJActivityState.m */; };
 		9DD885C21B205CC40073D9AC /* ADJAdjustFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 96E5E37118BBB48A008E7B30 /* ADJAdjustFactory.h */; };
 		9DD885C31B205CC40073D9AC /* ADJAdjustFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E5E37218BBB48A008E7B30 /* ADJAdjustFactory.m */; };
-		9DD885C41B205CC40073D9AC /* ADJLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 96E5E37318BBB48A008E7B30 /* ADJLogger.h */; };
+		9DD885C41B205CC40073D9AC /* ADJLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 96E5E37318BBB48A008E7B30 /* ADJLogger.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		9DD885C51B205CC40073D9AC /* ADJLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E5E37418BBB48A008E7B30 /* ADJLogger.m */; };
 		9DD885C61B205CC40073D9AC /* ADJPackageBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 96E5E37518BBB48A008E7B30 /* ADJPackageBuilder.h */; };
 		9DD885C71B205CC40073D9AC /* ADJPackageBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E5E37618BBB48A008E7B30 /* ADJPackageBuilder.m */; };
