@@ -1167,6 +1167,7 @@
 				9DD885AE1B205C700073D9AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9DD885AF1B205C700073D9AC /* Build configuration list for PBXNativeTarget "AdjustFrameworkTests" */ = {
 			isa = XCConfigurationList;
@@ -1175,6 +1176,7 @@
 				9DD885B11B205C700073D9AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
